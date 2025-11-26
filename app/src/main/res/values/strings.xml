@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="reg_str">Зарегистрироваться</string>
+    <string name="password_str">Пароль</string>
+    <string name="email_str">Email</string>
+    <string name="name_str">Имя</string>
+    <string name="str_reg">Регистрация</string>
+</resources>
