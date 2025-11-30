@@ -14,7 +14,14 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
-        setContentView(binding.root)  //activity_login
+        setContentView(binding.root)
+
+        // Настройка анимации
+        binding.animationView.apply {
+            setAnimation("Confetti.json")
+            playAnimation()
+            loop(true)
+        }
 
 
         binding.submitButton.setOnClickListener {

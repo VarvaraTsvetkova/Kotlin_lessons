@@ -11,6 +11,17 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+        <!-- Lottie анимация -->
+        <com.airbnb.lottie.LottieAnimationView
+            app:lottie_fileName="Confetti.json"
+            android:id="@+id/animationView"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            app:lottie_autoPlay="true"
+            app:lottie_loop="true"
+            android:layout_marginBottom="16dp" />
+
         <!-- Заголовок -->
         <TextView
             android:layout_width="match_parent"

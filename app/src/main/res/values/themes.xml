@@ -9,13 +9,12 @@
         <item name="materialButtonStyle">@style/Widget.MyApp.Button</item>
     </style>
 
-    <style name="Theme.MyApp" parent="Base.Theme.MyApp">
+    <style name="Theme.MyApp" parent="Theme.Material3.DayNight">
 
         <item name="android:windowSplashScreenBackground">@color/splash_background</item>
         <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
         <item name="android:windowSplashScreenAnimationDuration">1000</item>
     </style>
-
 
     <style name="Widget.MyApp.Button" parent="Widget.Material3.Button">
         <item name="backgroundTint">@color/colorPrimary</item>

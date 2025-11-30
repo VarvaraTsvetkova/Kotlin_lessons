@@ -68,5 +68,7 @@ dependencies {
 
     implementation(libs.androidx.navigation.ui.ktx)
 
+    implementation("com.airbnb.android:lottie:6.1.0")
+
 
 }
