@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/profile"
+        android:title="@string/profile_str"
+        android:icon="@drawable/ic_naw_profile" />
+
+    <item
+        android:id="@+id/secondFragment"
+        android:icon="@drawable/ic_2"
+        android:title="Other"/>
+
+    <item
+        android:id="@+id/thirdFragment"
+        android:icon="@drawable/ic_2"
+        android:title="Other"/>
+
+</menu>

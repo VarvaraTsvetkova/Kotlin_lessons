@@ -7,4 +7,5 @@
     <string name="email_str">Email</string>
     <string name="name_str">Имя</string>
     <string name="str_reg">Регистрация</string>
+    <string name="profile_str">Профиль</string>
 </resources>
